@@ -22,7 +22,11 @@ venv/bin/pip install -r requirements.txt
 The first use will take a while, since `nltk.download('punkt')` will download the punkt tokenizer first.
 
 ```shell
-npm run app add "A cat is chasing a mouse.A cat is chasing a dog. My meal tomorrow will be delicious."
+npm run app list
 
+npm run app query "Human riding a bicycle"
+
+
+npm run app add "A cat is chasing a mouse.A cat is chasing a dog. My meal tomorrow will be delicious."
 npm run app query "cat eats mouse"
 ```
