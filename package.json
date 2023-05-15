@@ -1,0 +1,25 @@
+{
+  "name": "typescript-semantic-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "node -r ts-node/register src/app.ts",
+    "install": "deepkit-type-install || exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deepkit/orm": "^1.0.1-alpha.98",
+    "@deepkit/postgres": "^1.0.1-alpha.98",
+    "@deepkit/sql": "^1.0.1-alpha.98",
+    "@deepkit/type": "^1.0.1-alpha.97",
+    "pybridge": "^1.1.0",
+    "rxjs": "^7.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@deepkit/type-compiler": "^1.0.1-alpha.97"
+  }
+}

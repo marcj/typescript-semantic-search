@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "es2018",
+    "module": "CommonJS",
+    "preserveSymlinks": true,
+    "esModuleInterop": true
+  },
+  "reflection": true,
+  "files": ["src/pp.ts"]
+}
